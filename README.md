@@ -4,7 +4,7 @@ Day 1
 
 Data Structures - organization of data to access it efficiently.
 
-algorithm - a step-by-step set of operations to solve a specific problem or a set of problems
+Algorithm - a step-by-step set of operations to solve a specific problem or a set of problems
 
 Types of data structures - 
 - Linear (stack, array, linked list)
@@ -12,7 +12,28 @@ Types of data structures -
 - Static (compile time memory allocation) for faster access, but slow insertion and deletion
 - dynamic (runtime memory allocation) for faster insertion/deletion but slow access to elements
 
-Searching algorithms
-- finding an element in a list
-- also depends on the time and space complexity of the problem
+Recursion -
+- case wherein the function calls for itself
+- there must be defined case for stopping the loop or else would lead to stack overflow
+- when the loop is closed and function calls itself until defined limits, it becomes recursion tree
+- Code Snippet for simple recursion example of calling your name n times over (n user-defined)
+```
+#include <iostream>
+using namespace std;
+
+int cnt = 0;
+void print(int n) {
+    if (cnt == n) return;
+    cout << "Ashish" << endl;
+    cnt++;
+    print(n);
+}
+int main() {
+    int n;
+    cin >> n;
+    print(n);
+    return 0;
+}
+```
+- 
 
