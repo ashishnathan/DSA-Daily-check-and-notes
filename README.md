@@ -14,8 +14,8 @@ Types of data structures -
 
 Recursion -
 - case wherein the function calls for itself
-- there must be defined case for stopping the loop or else would lead to stack overflow
-- when the loop is closed and function calls itself until defined limits, it becomes recursion tree
+- there must be a defined case for stopping the loop or else would lead to stack overflow
+- when the loop is closed and the function calls itself until defined limits, it becomes a recursion tree
 - Code Snippet for simple recursion example of calling your name n times over (n user-defined)
 ```
 #include <iostream>
@@ -36,4 +36,3 @@ int main() {
 }
 ```
 - 
-
