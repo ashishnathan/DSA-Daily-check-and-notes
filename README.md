@@ -35,4 +35,23 @@ int main() {
     return 0;
 }
 ```
+- Code snippet for sum of all n numbers using recursion
+```
+#include <iostream>
+using namespace std;
+
+void add(int i, int sum) {
+    if (i < 1) {
+        printf("%d", sum);
+        return;
+    }
+    add(i-1, sum+i);
+}
+
+int main() {
+    int i;
+    cin >> i;
+    add(i, 0);
+}
+```
 - 
